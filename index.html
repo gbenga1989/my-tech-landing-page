@@ -15,15 +15,36 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Simple Tailwind Starter</title>
   </head>
-  <body class="">
+  <body class="overflow-x-hidden">
     <head>
-      <nav class="wrapper justify-center">
+      <nav class="wrapper justify-center mt-6">
         <div class="logo">
           <img src="images/logo.svg" alt="" />
         </div>
       </nav>
     </head>
 
-    <section id="hero-section"></section>
+    <section id="hero-section">
+      <!-- hero container -->
+      <div
+        class="wrapper flex flex-col justify-between md:items-center md:flex-row md:space-x-16"
+      >
+        <!-- content and buttom -->
+        <div class="hero-content md:w-1/2">
+          <h1
+            class="text-4xl font-bold md:text-6xl bg-customgradient1 bg-clip-text text-transparent"
+          >
+            Join the <br />
+            ultimate tech <br />
+            book club
+          </h1>
+        </div>
+
+        <!-- image -->
+        <div class="hero-img md:w-1/2">
+          <img src="images/image-hero-desktop.webp" alt="" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
