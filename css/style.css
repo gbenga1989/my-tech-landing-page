@@ -586,8 +586,24 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .flex {
   display: flex;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .flex-row {
@@ -598,6 +614,10 @@ video {
   flex-direction: column;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -606,12 +626,36 @@ video {
   justify-content: space-between;
 }
 
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border-neu9 {
+  --tw-border-opacity: 1;
+  border-color: rgb(6 38 48 / var(--tw-border-opacity, 1));
+}
+
+.bg-lightsal50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 245 239 / var(--tw-bg-opacity, 1));
+}
+
 .bg-customgradient1 {
   background-image: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
+}
+
+.bg-vector {
+  background-image: url('../images/bg-pattern.svg');
 }
 
 .bg-clip-text {
@@ -619,8 +663,40 @@ video {
           background-clip: text;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .align-middle {
   vertical-align: middle;
+}
+
+.font-serif {
+  font-family: Inter, sans-serif;
+}
+
+.font-sans {
+  font-family: Martian Mono, sans-serif;
 }
 
 .text-4xl {
@@ -628,12 +704,40 @@ video {
   line-height: 2.5rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .text-transparent {
   color: transparent;
+}
+
+.text-neu7 {
+  --tw-text-opacity: 1;
+  color: rgb(56 81 89 / var(--tw-text-opacity, 1));
+}
+
+.text-neu9 {
+  --tw-text-opacity: 1;
+  color: rgb(6 38 48 / var(--tw-text-opacity, 1));
 }
 
 .wrapper {
