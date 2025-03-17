@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.wrapper{
+  @apply mx-auto md:px-12 px-4
+}
+  
