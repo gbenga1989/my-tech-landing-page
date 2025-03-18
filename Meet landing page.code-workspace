@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "Meet landing page",
+			"path": "../Meet landing page"
+		},
+		{
+			"name": "my tail flyo website",
+			"path": "../my tail flyo website"
+		},
+		{
+			"name": "clipboard",
+			"path": "../../TAILWIND UDEMY COURSE/Udemy - Tailwind CSS From Scratch Learn By Building Projects 2022-5/06 - Project 1 - Clipboard Website/clipboard"
+		},
+		{
+			"name": "tech book club page",
+			"path": "../tech book club page"
+		},
+		{
+			"name": "my tech book  landing page",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "my tech book  landing page"
+	}
+}
