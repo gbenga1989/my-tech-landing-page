@@ -7,3 +7,8 @@
   @apply mx-auto md:px-12 px-4
 }
   
+@media (max-width: 260px) {
+ .circle-img{
+  left:-135px;
+ }
+}
