@@ -716,8 +716,16 @@ video {
   height: 50px;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-28 {
   width: 7rem;
+}
+
+.max-w-\[512px\] {
+  max-width: 512px;
 }
 
 .grow {
@@ -845,6 +853,16 @@ video {
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -897,8 +915,26 @@ video {
     margin-bottom: 10rem;
   }
 
+  .md\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .md\:my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:max-w-\[512px\] {
+    max-width: 512px;
   }
 
   .md\:flex-row {
@@ -921,6 +957,10 @@ video {
 
   .md\:text-center {
     text-align: center;
+  }
+
+  .md\:align-middle {
+    vertical-align: middle;
   }
 
   .md\:text-6xl {
