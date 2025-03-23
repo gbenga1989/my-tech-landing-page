@@ -23,9 +23,12 @@
 		{
 			"name": "my tech book  landing page",
 			"path": "."
+		},
+		{
+			"path": "../../udemy javascript 2/Udemy - Modern JavaScript From The Beginning 2.0 (2024) 2024-4/02 - Variables, Data Types & More/javascript-sandbox-start"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "my tech book  landing page"
+		"liveServer.settings.multiRootWorkspaceName": "javascript-sandbox-start"
 	}
 }
